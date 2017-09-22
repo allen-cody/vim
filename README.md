@@ -1,2 +1,2 @@
 # vim
-save some script and doc and custom vimrc
+	Using VIM as IDE throug vim plugins.
