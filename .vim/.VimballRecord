@@ -1,0 +1,1 @@
+supertab.vmb: call delete('/newvol/home/liequan_liu/.vim/doc/supertab.txt')|call delete('/newvol/home/liequan_liu/.vim/plugin/supertab.vim')
