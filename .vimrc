@@ -1,12 +1,17 @@
+colo desert
+
 set nu "显示行号
 
-colo evening "配色方案
+colo desert "配色方案
+
+set encoding=utf8 "文件字符编码
 
 "代码缩进
 set autoindent
 set smartindent
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
 
 "语法高亮
 syntax enable
