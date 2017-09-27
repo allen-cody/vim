@@ -1,5 +1,3 @@
-colo desert
-
 set nu "显示行号
 
 colo desert "配色方案
@@ -7,11 +5,11 @@ colo desert "配色方案
 set encoding=utf8 "文件字符编码
 
 "代码缩进
-set autoindent
 set smartindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 
 "语法高亮
 syntax enable
@@ -29,3 +27,10 @@ nnoremap <leader>1 :set filetype=xhtml<cr>
 nnoremap <leader>2 :set filetype=css<cr>
 nnoremap <leader>3 :set filetype=javascript<cr>
 nnoremap <leader>4 :set filetype=php<cr>
+
+"括号自动补全
+inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
+inoremap { {<CR>}<Esc>O
+inoremap " ""<ESC>i
+inoremap ' ''<Esc>i
